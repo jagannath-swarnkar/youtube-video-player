@@ -1,4 +1,4 @@
-# Youtube playlist
+# Youtube video player
 This is a real-time application for playing youtube videos with creating a playlist. <br/>
 Here you can add youtube video urls, it will added to playlist and videos from playlist will automaticaly play one by one.<br/>
 you can remove and reorder items in your playlist. <br/>
@@ -18,7 +18,7 @@ it also has a small backend part inside the frontend repo that is for implementi
 2. go to the directory `youtube-video-player` by `cd youtube-video-player` and run command `npm install` to install all necessary dependencies. <br/>
 3. run command `npm start` to run frontend application and visit http://localhost:3000/ .
 
-### Also it has a smaill backend part, follow the given steps to run backend.
+##### it also has a smaill backend part, follow the given steps to run backend.
 4. go to the `server` directory inside `youtube-video-player` and run `npm install` to install all the dependencies. <br/>
 5. run `nodemon server.js` to run the backned application.
 
