@@ -110,11 +110,10 @@ function App() {
         <p className="title">{item.title}</p>
         <p className="body">{item.body}</p>
         <div>
-          <div className="playlist-div">
+          <Card className="playlist-div">
             <h3>{item.url}</h3>
             <h3 id="close-icon" onClick={() => deleteFromPlaylist(item.id)}>x</h3>
-          </div>
-          <Divider />
+          </Card>
         </div>
       </div>
     );
