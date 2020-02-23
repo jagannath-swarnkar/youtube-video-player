@@ -6,7 +6,7 @@ import YouTube from "react-youtube";
 import RLDD from "react-list-drag-and-drop/lib/RLDD";
 import _ from "underscore";
 
-const socket = io("http://localhost:8000/");
+const socket = io("http://localhost:8031/");
 var validUrl = require("valid-url");
 const youtube_regex = /^.*(youtu\.be\/|vi?\/|u\/\w\/|embed\/|\?vi?=|\&vi?=)([^#\&\?]*).*/;
 
